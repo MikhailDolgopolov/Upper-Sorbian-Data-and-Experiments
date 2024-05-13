@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6192fe3a-e878-4a1d-9029-daf035be9216" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/UpperSorbian.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/clean_wikipedia/hsb_wikipedia_2016_30K-clean_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/clean_wikipedia/manually_clean.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/eng.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_UD.conllu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_lookup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_wikipedia_2016_30K/hsb_wikipedia_2016-my_mport.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_wikipedia_2016_30K/hsb_wikipedia_2016_30K-co_n.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_wikipedia_2016_30K/hsb_wikipedia_2016_30K-co_s.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_wikipedia_2016_30K/hsb_wikipedia_2016_30K-import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_wikipedia_2016_30K/hsb_wikipedia_2016_30K-inv_so.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_wikipedia_2016_30K/hsb_wikipedia_2016_30K-inv_w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_wikipedia_2016_30K/hsb_wikipedia_2016_30K-sentences.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_wikipedia_2016_30K/hsb_wikipedia_2016_30K-sources.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/hsb_wikipedia_2016_30K/hsb_wikipedia_2016_30K-words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NLTK/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/English.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/cleaner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus/parser.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2gK2gOV9WO8RutcK4tSU9Bqt4Wg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.English.executor": "Run",
+    "Python.Testing.executor": "Run",
+    "Python.cleaner.executor": "Run",
+    "Python.parser.executor": "Run",
+    "Python.start.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Programming/Python/UpperSorbian/Data/clean_wikipedia",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Python\UpperSorbian\Data\clean_wikipedia" />
+      <recent name="D:\Programming\Python\UpperSorbian\Data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="cleaner" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="UpperSorbian" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="nlp" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/corpus/cleaner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6192fe3a-e878-4a1d-9029-daf035be9216" name="Changes" comment="" />
+      <created>1715432059129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715432059129</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
