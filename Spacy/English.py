@@ -1,6 +1,6 @@
 import spacy
 
-nlp = spacy.load("en_core_web_trf")
+nlp = spacy.load("en_core_web_sm")
 
 data = str(open("../Data/eng.txt").read())
 print(data)
