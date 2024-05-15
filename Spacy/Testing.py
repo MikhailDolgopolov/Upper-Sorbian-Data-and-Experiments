@@ -1,8 +1,8 @@
 import spacy
 
-# Create a blank English nlp object
-nlp = spacy.blank("hsb")
-doc = nlp("Běštaj nan a mać, a taj měještaj dźowčičku. Tuta pak běše jara rjana a meješe złoty měsačk na čole, a tohodla měješe čoło přeco zawjazane.")
+pol_nlp = spacy.load("pl_core_news_sm")
+
+doc = pol_nlp("Běštaj nan a mać, a taj měještaj dźowčičku. Tuta pak běše jara rjana a meješe złoty měsačk na čole, a tohodla měješe čoło přeco zawjazane.")
 print("Index:   ", [token.i for token in doc])
 print("Text:    ", [token.text for token in doc])
 print("Lemmas:    ", [token.lemma_ for token in doc])
