@@ -1,12 +1,10 @@
 import spacy
+import torch
+print(torch.cuda.is_available())
 
-pol_nlp = spacy.load("pl_core_news_sm")
-
-doc = pol_nlp("Běštaj nan a mać, a taj měještaj dźowčičku. Tuta pak běše jara rjana a meješe złoty měsačk na čole, a tohodla měješe čoło přeco zawjazane.")
-print("Index:   ", [token.i for token in doc])
-print("Text:    ", [token.text for token in doc])
-print("Lemmas:    ", [token.lemma_ for token in doc])
-
-print("is_alpha:", [token.is_alpha for token in doc])
-print("is_punct:", [token.is_punct for token in doc])
-print("like_num:", [token.like_num for token in doc])
+output_dir="Models/MyMorph"
+# main(output_dir)
+nlp2 = spacy.load(output_dir)
+test_text="Tak so mi nihdźe, nihdźe njelubi, kaz mjez mojimi Serbami. "
+doc = nlp2(test_text)
+print('Tags', [(t.text, t.tag_, t.pos_) for t in doc])

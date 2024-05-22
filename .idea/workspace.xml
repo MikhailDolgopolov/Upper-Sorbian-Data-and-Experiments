@@ -4,12 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6192fe3a-e878-4a1d-9029-daf035be9216" name="Changes" comment="First commit">
-      <change beforePath="$PROJECT_DIR$/.idea/UpperSorbian.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UpperSorbian.iml" afterDir="false" />
+    <list default="true" id="6192fe3a-e878-4a1d-9029-daf035be9216" name="Changes" comment="UPOS data from UD conllu">
+      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/tagger/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/morphologizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/morphologizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/morphologizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/morphologizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/tagger/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/parsing_conllu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spacy_conllu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spacy_conllu/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spacy_conllu/cli/parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spacy_conllu/formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spacy_conllu/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spacy_conllu/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/clean_wikipedia/manually_clean.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/clean_wikipedia/manually_clean.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/English.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/English.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/base_config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/base_config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/training.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,30 +85,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.English.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Testing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cleaner.executor&quot;: &quot;Run&quot;,
-    &quot;Python.parser.executor&quot;: &quot;Run&quot;,
-    &quot;Python.start.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Programming/Python/UpperSorbian/Data/clean_wikipedia&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.English.executor": "Run",
+    "Python.Testing.executor": "Run",
+    "Python.cleaner.executor": "Run",
+    "Python.parser.executor": "Run",
+    "Python.parsing_conllu.executor": "Run",
+    "Python.spacy_ConlU.executor": "Run",
+    "Python.start.executor": "Run",
+    "Python.training.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Programming/Python/UpperSorbian",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Python\UpperSorbian" />
       <recent name="D:\Programming\Python\UpperSorbian\Data\clean_wikipedia" />
       <recent name="D:\Programming\Python\UpperSorbian\Data" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\Python\UpperSorbian\Spacy\Models\First" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.English">
+  <component name="RunManager" selected="Python.Testing">
     <configuration name="English" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UpperSorbian" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -80,8 +137,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UpperSorbian" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spacy/Testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cleaner" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="UpperSorbian" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -101,8 +181,86 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UpperSorbian" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/corpus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/corpus/parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parsing_conllu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UpperSorbian" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Programming\Python\UpperSorbian\Spacy\parsing_conllu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="training" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UpperSorbian" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spacy/training.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.cleaner" />
+      <item itemvalue="Python.Testing" />
+      <item itemvalue="Python.English" />
+      <item itemvalue="Python.parser" />
+      <item itemvalue="Python.parsing_conllu" />
+      <item itemvalue="Python.training" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Testing" />
+        <item itemvalue="Python.parsing_conllu" />
+        <item itemvalue="Python.training" />
+        <item itemvalue="Python.parser" />
         <item itemvalue="Python.English" />
       </list>
     </recent_temporary>
@@ -131,12 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715617508435</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="UPOS data from UD conllu">
+      <option name="closed" value="true" />
+      <created>1715758006100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715758006100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="UPOS data from UD conllu" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPOS data from UD conllu" />
   </component>
 </project>
