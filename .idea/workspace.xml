@@ -4,60 +4,105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6192fe3a-e878-4a1d-9029-daf035be9216" name="Changes" comment="UPOS data from UD conllu">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/First/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/morphologizer/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/morphologizer/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/morphologizer/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/morphologizer/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Models/Second/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/parsing_conllu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacy_conllu/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacy_conllu/cli/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacy_conllu/cli/parse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacy_conllu/formatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacy_conllu/parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spacy_conllu/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6192fe3a-e878-4a1d-9029-daf035be9216" name="Changes" comment="First Trained models">
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyBigTagger/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyBigTagger/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyBigTagger/tagger/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyBigTagger/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyBigTagger/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/tagger/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/trainable_lemmatizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/trainable_lemmatizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/trainable_lemmatizer/trees" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemm/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/morphologizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/tagger/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/trainable_lemmatizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/trainable_lemmatizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/trainable_lemmatizer/trees" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/morphologizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/tagger/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/trainable_lemmatizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/trainable_lemmatizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/trainable_lemmatizer/trees" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/trainable_lemmatizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/trainable_lemmatizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/trainable_lemmatizer/trees" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyLematizer/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTaggerTest/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTaggerTest/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTaggerTest/tagger/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTaggerTest/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTaggerTest/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTaggerTest/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTaggerTest/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTaggerTest/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTaggerTest/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTaggerTest/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTrainTest/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTrainTest/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTrainTest/tagger/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTrainTest/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTrainTest/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTrainTest/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTrainTest/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTrainTest/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTrainTest/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Models/MyTrainTest/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/base_config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/data.spacy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/writing_training.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLTK/start.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph/morphologizer/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/morphologizer/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph/morphologizer/model" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/morphologizer/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyMorph/vocab/strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph2/config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph2/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph2/morphologizer/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagLemmMorph/morphologizer/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph2/morphologizer/model" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/morphologizer/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph2/tokenizer" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyBigTagger/tokenizer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/key2row" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyBigTagger/vocab/key2row" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/lookups.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyBigTagger/vocab/lookups.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyComb_TagMorph/vocab/strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/vectors" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyBigTagger/vocab/vectors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Models/MyMorph2/vocab/vectors.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Models/MyBigTagger/vocab/vectors.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spacy/Testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/base_config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/base_config.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/parsing_conllu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/parsing_conllu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacy_conllu/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacy_conllu/parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +141,7 @@
     "Python.spacy_ConlU.executor": "Run",
     "Python.start.executor": "Run",
     "Python.training.executor": "Run",
+    "Python.writing_training.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -114,29 +160,7 @@
       <recent name="D:\Programming\Python\UpperSorbian\Spacy\Models\First" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Testing">
-    <configuration name="English" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UpperSorbian" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spacy/English.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.writing_training">
     <configuration name="Testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UpperSorbian" />
       <option name="ENV_FILES" value="" />
@@ -247,21 +271,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="writing_training" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UpperSorbian" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy/Training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spacy/Training/writing_training.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.cleaner" />
       <item itemvalue="Python.Testing" />
-      <item itemvalue="Python.English" />
+      <item itemvalue="Python.writing_training" />
       <item itemvalue="Python.parser" />
       <item itemvalue="Python.parsing_conllu" />
       <item itemvalue="Python.training" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Testing" />
+        <item itemvalue="Python.writing_training" />
         <item itemvalue="Python.parsing_conllu" />
+        <item itemvalue="Python.Testing" />
         <item itemvalue="Python.training" />
         <item itemvalue="Python.parser" />
-        <item itemvalue="Python.English" />
       </list>
     </recent_temporary>
   </component>
@@ -297,13 +343,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715758006100</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Reading Conllu files">
+      <option name="closed" value="true" />
+      <created>1716410931488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716410931488</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Trained models">
+      <option name="closed" value="true" />
+      <created>1716411008137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716411008137</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value="UPOS data from UD conllu" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPOS data from UD conllu" />
+    <MESSAGE value="Reading Conllu files" />
+    <MESSAGE value="First Trained models" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Trained models" />
   </component>
 </project>

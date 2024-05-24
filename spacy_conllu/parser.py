@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 from locale import getpreferredencoding
 from os import PathLike
 from pathlib import Path
-from typing import Dict, List, Union
+from typing import Dict, List, Union, Tuple
 
 from spacy import Errors, Language
 from spacy.tokens import Doc, Span, Token
@@ -137,7 +137,8 @@ class ConlluParser:
         input_encoding: str = getpreferredencoding(),
         ner_tag_pattern: str = "^((?:name|NE)=)?([BILU])-([A-Z_]+)|O$",
         ner_map: Dict[str, str] = None,
-    ) -> Doc:
+        **kwargs
+    ) -> tuple[Doc, Doc] | tuple[list[Doc], list[Doc]] | Doc | list[Doc]:
         """Parses a given CoNLL-U file into a spaCy doc. Parsed sentence section must be separated by a new line.
         See :py:meth:`ConlluParser.parse_conll_text_as_spacy`.
         :param input_file: path to the input file to process
@@ -147,14 +148,14 @@ class ConlluParser:
         :return: a spacy Doc containing all the tokens and sentences from the CoNLL file including the custom CoNLL extensions
         """
         text = Path(input_file).resolve().read_text(encoding=input_encoding)
-        return self.parse_conll_text_as_spacy(text, ner_tag_pattern=ner_tag_pattern, ner_map=ner_map)
+        return self.parse_conll_text_as_spacy(text, ner_tag_pattern=ner_tag_pattern, ner_map=ner_map, **kwargs)
 
     def parse_conll_text_as_spacy(
         self,
         text: str,
         ner_tag_pattern: str = "^((?:name|NE)=)?([BILU])-([A-Z_]+)|O$",
-        ner_map: Dict[str, str] = None,
-    ) -> Doc:
+        ner_map: Dict[str, str] = None, **kwargs
+    ) -> tuple[Doc, Doc] | tuple[list[Doc], list[Doc]] | Doc | list[Doc]:
         """Parses a given CoNLL-U string into a spaCy doc. Parsed sentence section must be separated by a new line (\n\n).
         Note that we do our best to retain as much information as possible but that not all CoNLL-U fields are
         supported in spaCy. We add a Token._.conll_misc_field extension to save CoNLL-U MISC field, and a
@@ -179,7 +180,8 @@ class ConlluParser:
         if not Span.has_extension("conll_metadata"):
             Span.set_extension("conll_metadata", default=None)
 
-        docs = []
+        full_docs = []
+        clean_docs = []
         for chunk in text.split("\n\n"):
             lines = [l for l in chunk.splitlines() if l and not l.startswith("#")]
             words, spaces, tags, poses, morphs, lemmas, miscs = [], [], [], [], [], [], []
@@ -222,7 +224,7 @@ class ConlluParser:
                 deps_graphs.append(deps_graph)
                 miscs.append(misc)
 
-            doc = Doc(
+            full_doc = Doc(
                 self.nlp.vocab,
                 words=words,
                 spaces=spaces,
@@ -233,18 +235,25 @@ class ConlluParser:
                 heads=heads,
                 deps=deps,
             )
+            clean_doc = Doc(
+                self.nlp.vocab,
+                words = words,
+                spaces=spaces,
+                heads=heads,
+                deps=deps,
+            )
 
             # Set custom Token extensions
-            for i in range(len(doc)):
-                doc[i]._.conll_misc_field = miscs[i]
-                doc[i]._.conll_deps_graphs_field = deps_graphs[i]
+            for i in range(len(full_doc)):
+                full_doc[i]._.conll_misc_field = miscs[i]
+                full_doc[i]._.conll_deps_graphs_field = deps_graphs[i]
 
             ents = get_entities(lines, ner_tag_pattern, ner_map)
-            doc.ents = spans_from_biluo_tags(doc, ents)
+            full_doc.ents = spans_from_biluo_tags(full_doc, ents)
 
             # The deprel relations ensure that this CoNLL chunk is one sentence
             # Deprel cannot therefore not be empty or each word is considered a separate sentence
-            if len(list(doc.sents)) != 1:
+            if len(list(full_doc.sents)) != 1:
                 raise ValueError(
                     "Your data is in an unexpected format. Make sure that it follows the CoNLL-U format"
                     " requirements. See https://universaldependencies.org/format.html. Particularly make"
@@ -254,10 +263,19 @@ class ConlluParser:
             # Save the metadata in a custom sentence Span attribute so that the formatter can use it
             metadata = "\n".join([l for l in chunk.splitlines() if l.startswith("#")])
             # We really only expect one sentence
-            for sent in doc.sents:
+            for sent in full_doc.sents:
                 sent._.conll_metadata = f"{metadata}\n" if metadata else ""
 
-            docs.append(doc)
-
-        # Add CoNLL custom extensions
-        return self.nlp.get_pipe("conllu_formatter")(Doc.from_docs(docs))
+            full_docs.append(full_doc)
+            clean_docs.append(clean_doc)
+        clean, full = 0,0
+        if kwargs["combine"]:
+            clean = Doc.from_docs(clean_docs)
+            full = Doc.from_docs(full_docs)
+        if kwargs["pair"]:
+            if kwargs["combine"]:
+                return clean, full
+            return clean_docs, full_docs
+        if kwargs["combine"]:
+            return full
+        return full_docs
