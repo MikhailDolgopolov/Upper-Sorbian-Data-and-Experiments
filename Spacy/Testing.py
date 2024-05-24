@@ -1,30 +1,40 @@
+import numpy as np
 import spacy
-import torch
-from spacy.pipeline.tagger import Scorer
-from spacy.tokens import DocBin
-from spacy.training import Example
+from spacy import displacy
+from tqdm import tqdm
 
+from Spacy.my_sentencizer import *
 
-output_dir="Models/MyTaggerTest"
-
-nlp = spacy.load(output_dir)
-scorer = Scorer(nlp)
-
-from spacy_conllu import init_parser
-from spacy_conllu.parser import ConlluParser
+en = spacy.load("en_core_web_sm")
+nlp = spacy.load("../Spacy/Training/Output/TaggerMorpherParser98/model-best")
+nlp.add_pipe("hsb_split", before="tagger")
+displacy.serve(nlp("Kocor je z njewšědnej pilnosću dźěłał, wozbožujo swój lud z wulkej syłu małych a wjetšich składbow. "), port=3000, style="dep")
 
 spacy.require_gpu()
 
-# parser = ConlluParser(init_parser("hsb"))
-#
-# doc = parser.parse_conll_file_as_spacy("../Data/hsb_UD.conllu", input_encoding="utf-8")
-#
-# all_examples = Example(nlp(doc), doc)
-# val_data = all_examples.split_sents()
-#
-# print(scorer.score(val_data)["tag_acc"])
 
-doc = nlp("A skutkujće, zo njejsće na swojej zemi nic jeničcy doma, ale tež z knjezom!")
+nlp = spacy.load("../Spacy/Training/Output/TaggerMorpherParser98/model-best")
+nlp.add_pipe("hsb_split", before="tagger")
 
-for token in doc:
-    print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_)
+from spacy_conllu import ConlluParser, init_parser
+
+parser = ConlluParser(init_parser("hsb"))
+clean, corpus = parser.parse_conll_file_as_spacy("../Data/hsb_UD.conllu", input_encoding="utf-8", pair=True, combine=False)
+
+results = {"FullUD96":0, "NewTagger94":0, "Invtagger90":0, "TaggerMorpherParser98":0}
+
+models = {model:spacy.load(f"../Spacy/Training/Output/{model}/model-best") for model in results.keys()}
+
+# for truth, doc in tqdm(zip(corpus, clean)):
+#
+#     for m in results.keys():
+#         res = models[m](doc)
+#         check = ["tag_"]
+#         for t1, t2 in zip(truth, res):
+#             a = [t1.tag_ == t2.tag_ for pr in check]
+#             add = np.count_nonzero(np.where(a, 1, 0))/len(check)
+#             # print(a)
+#             results[m]+=add/len(res)
+#
+# results = {k: v/len(clean) for k, v in results.items()}
+# print(results)
