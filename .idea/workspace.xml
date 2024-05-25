@@ -4,144 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6192fe3a-e878-4a1d-9029-daf035be9216" name="Changes" comment="Training Lost">
-      <change afterPath="$PROJECT_DIR$/Data/citanka.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/morphologizer/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/morphologizer/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/parser/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/parser/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/parser/moves" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/tok2vec/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/tok2vec/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/trainable_lemmatizer/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/trainable_lemmatizer/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/trainable_lemmatizer/trees" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-best/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/morphologizer/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/morphologizer/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/parser/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/parser/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/parser/moves" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/tok2vec/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/tok2vec/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/trainable_lemmatizer/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/trainable_lemmatizer/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/trainable_lemmatizer/trees" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/FullUD96/model-last/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/tok2vec/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/tok2vec/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/tok2vec/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/tok2vec/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/tok2vec/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/tok2vec/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/tok2vec/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/tok2vec/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/morphologizer/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/morphologizer/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/parser/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/parser/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/parser/moves" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/tok2vec/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/tok2vec/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-best/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/morphologizer/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/morphologizer/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/parser/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/parser/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/parser/moves" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/tok2vec/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/tok2vec/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/TaggerMorpherParser98/model-last/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/corpora/citanka.spacy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/tagger2.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/tagger_inv-corp.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/my_sentencizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/attempt.spacy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/corpus/transformer.py" afterDir="false" />
+    <list default="true" id="6192fe3a-e878-4a1d-9029-daf035be9216" name="Changes" comment="Using the models">
+      <change afterPath="$PROJECT_DIR$/Data/citanka-prose.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/citanka2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/meta.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/morphologizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/morphologizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/parser/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/parser/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/parser/moves" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/tagger/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/tok2vec/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/tok2vec/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/config.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/morphologizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/morphologizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/parser/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/parser/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/parser/moves" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tagger/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tok2vec/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tok2vec/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tokenizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/vocab/key2row" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/vocab/lookups.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/vocab/strings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/vocab/vectors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/vocab/vectors.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/corpora/prose.spacy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spacy/Testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/Training/3+1_base.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/3+1_base.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/Training/3and1.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/3and1.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/Training/corpora/train.spacy" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/corpora/UD.spacy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/Training/corpus.spacy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/Training/data.spacy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Spacy/Training/trifecta.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/trifecta.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/Training/writing_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/writing_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/my_sentencizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/my_sentencizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/transformer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +117,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Programming/Python/UpperSorbian/Spacy/Training",
+    "last_opened_file_path": "D:/Programming/Python/UpperSorbian/Data",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
@@ -221,9 +127,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programming\Python\UpperSorbian\Data" />
       <recent name="D:\Programming\Python\UpperSorbian\Spacy\Training" />
       <recent name="D:\Programming\Python\UpperSorbian\Spacy\Training\corpora" />
-      <recent name="D:\Programming\Python\UpperSorbian\Data" />
       <recent name="D:\Programming\Python\UpperSorbian" />
       <recent name="D:\Programming\Python\UpperSorbian\Data\clean_wikipedia" />
     </key>
@@ -462,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716569772846</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Using the models">
+      <option name="closed" value="true" />
+      <created>1716581891710</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716581891710</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -488,6 +402,7 @@
     <MESSAGE value="Training models, creating corpora" />
     <MESSAGE value="4 Trained Models" />
     <MESSAGE value="Training Lost" />
-    <option name="LAST_COMMIT_MESSAGE" value="Training Lost" />
+    <MESSAGE value="Using the models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using the models" />
   </component>
 </project>

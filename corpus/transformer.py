@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 from Spacy.my_sentencizer import *
 
-file_name = "../Data/citanka.txt"
+file_name = "../Data/citanka-prose.txt"
 
 start_time = time.time()
 nlp = spacy.load("../Spacy/Training/Output/TaggerMorpherParser98/model-best")
@@ -36,5 +36,11 @@ with open(file_name, "r", encoding="utf-8") as f:
     lines = f.readlines()
     for l in tqdm(lines):
         docs.append(nlp(l))
-bin = DocBin(docs = docs)
-bin.to_disk("attempt.spacy")
+
+all = Doc.from_docs(docs)
+sentences = []
+print(len(all))
+for s in tqdm(all.sents):
+    sentences.append(nlp(s.text))
+bin = DocBin(docs=sentences)
+bin.to_disk("../Spacy/Training/corpora/prose.spacy")
