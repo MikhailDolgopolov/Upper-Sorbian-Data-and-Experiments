@@ -14,10 +14,10 @@ def custom_sentencizer(doc):
 
         # print(token, len(token))
         if token.text.strip() in ".!?":
-            # if doc[i+2].text not in ".!?":
+            if doc[i+2].text not in ".!?":
                 doc[i + 1].is_sent_start = True
-        else:
+        # else:
             # Explicitly set sentence start to False otherwise, to tell
             # the parser to leave those tokens alone
-            doc[i + 1].is_sent_start = False
+            # doc[i + 1].is_sent_start = False
     return doc

@@ -238,9 +238,9 @@ class ConlluParser:
             clean_doc = Doc(
                 self.nlp.vocab,
                 words = words,
-                spaces=spaces,
-                heads=heads,
-                deps=deps,
+                # spaces=spaces,
+                # heads=heads,
+                # deps=deps,
             )
 
             # Set custom Token extensions
@@ -268,10 +268,12 @@ class ConlluParser:
 
             full_docs.append(full_doc)
             clean_docs.append(clean_doc)
+
         clean, full = 0,0
         if kwargs["combine"]:
             clean = Doc.from_docs(clean_docs)
             full = Doc.from_docs(full_docs)
+
         if kwargs["pair"]:
             if kwargs["combine"]:
                 return clean, full

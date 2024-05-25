@@ -1,0 +1,148 @@
+#sent id = 0
+#text = Tak bu Kocor tež sobuzałožeŕ serbskich spěwanskich swjedźenjow l. 1845 a sćěhowacych, a z tym njesmjertny zbudźowaŕ noweje serbskosće.
+1	Tak	_	ADV	_	PronType=Dem	2	advmod	_
+2	bu	_	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	2	ROOT	_
+3	Kocor	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_
+4	tež	_	ADV	_	_	3	fixed	_
+5	sobuzałožeŕ	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_
+6	serbskich	_	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	8	amod	_
+7	spěwanskich	_	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	8	amod	_
+8	swjedźenjow	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_
+9	l.	_	PUNCT	_	_	8	nmod	_
+10	1845	_	NUM	_	NumType=Card	3	nummod	_
+11	a	_	CCONJ	_	_	12	cc	_
+12	sćěhowacych	_	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	10	conj	_
+13	,	_	PUNCT	_	_	18	punct	_
+14	a	_	CCONJ	_	_	18	cc	_
+15	z	_	ADP	_	_	16	case	_
+16	tym	_	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	18	nmod	_
+17	njesmjertny	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_
+18	zbudźowaŕ	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_
+19	noweje	_	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	20	amod	_
+20	serbskosće	_	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_
+21	.	_	PUNCT	_	_	2	punct	_
+
+new par = 1#sent id = p1s0
+#text = Tak bu Kocor tež sobuzałožeŕ serbskich spěwanskich swjedźenjow l. 1845 a sćěhowacych, a z tym njesmjertny zbudźowaŕ noweje serbskosće.
+1	Tak	_	ADV	_	PronType=Dem	2	advmod	_
+2	bu	_	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	2	ROOT	_
+3	Kocor	_	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_
+4	tež	_	ADV	_	_	3	fixed	_
+5	sobuzałožeŕ	_	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_
+6	serbskich	_	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	8	amod	_
+7	spěwanskich	_	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	8	amod	_
+8	swjedźenjow	_	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_
+9	l.	_	PUNCT	_	_	8	nmod	_
+10	1845	_	NUM	_	NumType=Card	3	nummod	_
+11	a	_	CCONJ	_	_	12	cc	_
+12	sćěhowacych	_	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	10	conj	_
+13	,	_	PUNCT	_	_	18	punct	_
+14	a	_	CCONJ	_	_	18	cc	_
+15	z	_	ADP	_	_	16	case	_
+16	tym	_	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	18	nmod	_
+17	njesmjertny	_	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_
+18	zbudźowaŕ	_	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_
+19	noweje	_	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	20	amod	_
+20	serbskosće	_	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_
+21	.	_	PUNCT	_	_	2	punct	_
+
+new par = 1#sent id = p1s0
+#text = Dale dyrbi so rjec, zo so w třoch wjesnych hatach stajnje wulka syła husow kupaše.
+1	Dale	_	ADV	_	_	2	advmod	_
+2	dyrbi	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ROOT	_
+3	so	_	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	dep	_
+4	rjec	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	xcomp	_
+5	,	_	PUNCT	_	_	16	punct	_
+6	zo	_	SCONJ	_	_	16	mark	_
+7	so	_	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	16	expl:pv	_
+8	w	_	ADP	_	_	9	case	_
+9	třoch	_	NOUN	_	Case=Loc|Gender=Neut|NumType=Card|Number=Plur	13	nmod	_
+10	wjesnych	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_
+11	hatach	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nmod	_
+12	stajnje	_	ADV	_	Degree=Pos	13	advmod	_
+13	wulka	_	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	15	amod	_
+14	syła	_	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	15	amod	_
+15	husow	_	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	16	obj	_
+16	kupaše	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	dep	_
+17	.	_	PUNCT	_	_	2	punct	_
+
+new par = 1#sent id = p1s0
+#text = Dale dyrbi so rjec, zo so w třoch wjesnych hatach stajnje wulka syła husow kupaše.
+1	Dale	_	ADV	_	_	2	advmod	_
+2	dyrbi	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ROOT	_
+3	so	_	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	dep	_
+4	rjec	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	xcomp	_
+5	,	_	PUNCT	_	_	16	punct	_
+6	zo	_	SCONJ	_	_	16	mark	_
+7	so	_	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	16	expl:pv	_
+8	w	_	ADP	_	_	9	case	_
+9	třoch	_	NOUN	_	Case=Loc|Gender=Neut|NumType=Card|Number=Plur	13	nmod	_
+10	wjesnych	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_
+11	hatach	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nmod	_
+12	stajnje	_	ADV	_	Degree=Pos	13	advmod	_
+13	wulka	_	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	15	amod	_
+14	syła	_	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	15	amod	_
+15	husow	_	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	16	obj	_
+16	kupaše	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	dep	_
+17	.	_	PUNCT	_	_	2	punct	_
+
+new par = 1#sent id = p1s0
+#text = Dale dyrbi so rjec, zo so w třoch wjesnych hatach stajnje wulka syła husow kupaše.
+1	Dale	_	ADV	_	_	2	advmod	_
+2	dyrbi	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ROOT	_
+3	so	_	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	dep	_
+4	rjec	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	xcomp	_
+5	,	_	PUNCT	_	_	16	punct	_
+6	zo	_	SCONJ	_	_	16	mark	_
+7	so	_	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	16	expl:pv	_
+8	w	_	ADP	_	_	9	case	_
+9	třoch	_	NOUN	_	Case=Loc|Gender=Neut|NumType=Card|Number=Plur	13	nmod	_
+10	wjesnych	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_
+11	hatach	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nmod	_
+12	stajnje	_	ADV	_	Degree=Pos	13	advmod	_
+13	wulka	_	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	15	amod	_
+14	syła	_	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	15	amod	_
+15	husow	_	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	16	obj	_
+16	kupaše	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	dep	_
+17	.	_	PUNCT	_	_	2	punct	_
+
+new par = 1#sent id = p1s0
+#text = Dale dyrbi so rjec, zo so w třoch wjesnych hatach stajnje wulka syła husow kupaše.
+1	Dale	_	ADV	_	_	2	advmod	_
+2	dyrbi	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ROOT	_
+3	so	_	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	dep	_
+4	rjec	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	xcomp	_
+5	,	_	PUNCT	_	_	16	punct	_
+6	zo	_	SCONJ	_	_	16	mark	_
+7	so	_	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	16	expl:pv	_
+8	w	_	ADP	_	_	9	case	_
+9	třoch	_	NOUN	_	Case=Loc|Gender=Neut|NumType=Card|Number=Plur	13	nmod	_
+10	wjesnych	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_
+11	hatach	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nmod	_
+12	stajnje	_	ADV	_	Degree=Pos	13	advmod	_
+13	wulka	_	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	15	amod	_
+14	syła	_	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	15	amod	_
+15	husow	_	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	16	obj	_
+16	kupaše	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	dep	_
+17	.	_	PUNCT	_	_	2	punct	_
+
+new par = 1#sent id = p1s0
+#text = Dale dyrbi so rjec, zo so w třoch wjesnych hatach stajnje wulka syła husow kupaše.
+1	Dale	_	ADV	_	_	2	advmod	_
+2	dyrbi	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ROOT	_
+3	so	_	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	dep	_
+4	rjec	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	xcomp	_
+5	,	_	PUNCT	_	_	16	punct	_
+6	zo	_	SCONJ	_	_	16	mark	_
+7	so	_	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	16	expl:pv	_
+8	w	_	ADP	_	_	9	case	_
+9	třoch	_	NOUN	_	Case=Loc|Gender=Neut|NumType=Card|Number=Plur	13	nmod	_
+10	wjesnych	_	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_
+11	hatach	_	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nmod	_
+12	stajnje	_	ADV	_	Degree=Pos	13	advmod	_
+13	wulka	_	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	15	amod	_
+14	syła	_	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	15	amod	_
+15	husow	_	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	16	obj	_
+16	kupaše	_	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	dep	_
+17	.	_	PUNCT	_	_	2	punct	_
+

@@ -4,50 +4,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6192fe3a-e878-4a1d-9029-daf035be9216" name="Changes" comment="Using the models">
-      <change afterPath="$PROJECT_DIR$/Data/citanka-prose.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/citanka2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/meta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/morphologizer/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/morphologizer/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/parser/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/parser/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/parser/moves" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/tok2vec/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/tok2vec/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-best/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/config.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/morphologizer/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/morphologizer/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/parser/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/parser/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/parser/moves" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tagger/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tagger/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tok2vec/cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tok2vec/model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tokenizer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/vocab/key2row" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/vocab/lookups.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/vocab/strings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/vocab/vectors" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/vocab/vectors.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spacy/Training/corpora/prose.spacy" afterDir="false" />
+    <list default="true" id="6192fe3a-e878-4a1d-9029-daf035be9216" name="Changes" comment="new data, new models">
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/morphologizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/morphologizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/parser/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/parser/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/parser/moves" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/morphologizer/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/morphologizer/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/parser/cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/parser/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/parser/moves" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/tagger/model" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spacy/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.conllu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/Testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spacy/Training/trifecta.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/trifecta.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/tagger/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/tagger/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/tagger/model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/tok2vec/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/tok2vec/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/tok2vec/model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/tokenizer" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/tokenizer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/vocab/key2row" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/vocab/key2row" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/vocab/lookups.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/vocab/lookups.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/vocab/strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/vocab/strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/vocab/vectors" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/vocab/vectors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-best/vocab/vectors.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/vocab/vectors.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/config.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/config.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/tagger/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/tagger/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/tagger/model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/tok2vec/cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/tok2vec/cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/tok2vec/model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/tokenizer" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/tokenizer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/vocab/key2row" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/vocab/key2row" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/vocab/lookups.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/vocab/lookups.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/vocab/strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/vocab/strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/vocab/vectors" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/vocab/vectors" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/InvTagger90/model-last/vocab/vectors.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/vocab/vectors.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/config.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/tagger/cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/tagger/model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/tok2vec/cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/tok2vec/model" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-last/tok2vec/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/tokenizer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/vocab/key2row" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/vocab/lookups.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/vocab/strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/vocab/vectors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-best/vocab/vectors.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/config.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/tagger/cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/tagger/model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/tok2vec/cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/tok2vec/model" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/NewTry/model-best/tok2vec/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/tokenizer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/vocab/key2row" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/vocab/lookups.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/vocab/strings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/vocab/vectors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/NewTagger94/model-last/vocab/vectors.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/meta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/morphologizer/model" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/morphologizer/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/parser/model" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/parser/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tagger/model" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tagger/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tok2vec/model" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/Output/ProseTrifecta/model-last/tok2vec/model" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/tagger2.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/Training/tagger_inv-corp.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/Training/new_try.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spacy/my_sentencizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/my_sentencizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corpus/transformer.py" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/transformer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spacy/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Spacy/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/attempt.spacy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/corpus/cleaner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spacy_conllu/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/spacy_conllu/parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,12 +140,16 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.English.executor": "Run",
+    "Python.Practice (1).executor": "Run",
+    "Python.Practice.executor": "Run",
     "Python.Testing.executor": "Run",
     "Python.cleaner.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.parser.executor": "Run",
     "Python.parsing_conllu.executor": "Run",
     "Python.spacy_ConlU.executor": "Run",
     "Python.start.executor": "Run",
+    "Python.testing.executor": "Run",
     "Python.training.executor": "Run",
     "Python.transformer.executor": "Run",
     "Python.writing_training.executor": "Run",
@@ -117,8 +157,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Programming/Python/UpperSorbian/Data",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "D:/Programming/Python/UpperSorbian/Spacy/Training",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
     "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
@@ -127,8 +167,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programming\Python\UpperSorbian\Data" />
       <recent name="D:\Programming\Python\UpperSorbian\Spacy\Training" />
+      <recent name="D:\Programming\Python\UpperSorbian\Data" />
       <recent name="D:\Programming\Python\UpperSorbian\Spacy\Training\corpora" />
       <recent name="D:\Programming\Python\UpperSorbian" />
       <recent name="D:\Programming\Python\UpperSorbian\Data\clean_wikipedia" />
@@ -139,96 +179,8 @@
       <recent name="D:\Programming\Python\UpperSorbian\Spacy\Models\First" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Testing">
-    <configuration name="Testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UpperSorbian" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spacy/Testing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="cleaner" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="UpperSorbian" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/corpus/cleaner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="parsing_conllu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UpperSorbian" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Programming\Python\UpperSorbian\Spacy\parsing_conllu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="training" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UpperSorbian" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spacy/training.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="transformer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.testing">
+    <configuration name="cleaner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UpperSorbian" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,7 +193,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/corpus/transformer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/corpus/cleaner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="writing_training" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UpperSorbian" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,11 +211,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy/Training" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spacy/Training/writing_training.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UpperSorbian" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spacy/testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UpperSorbian" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spacy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Programming\Python\UpperSorbian\Spacy\utils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,19 +270,16 @@
     </configuration>
     <list>
       <item itemvalue="Python.cleaner" />
-      <item itemvalue="Python.transformer" />
-      <item itemvalue="Python.Testing" />
-      <item itemvalue="Python.parsing_conllu" />
-      <item itemvalue="Python.training" />
-      <item itemvalue="Python.writing_training" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.testing" />
+      <item itemvalue="Python.utils" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Testing" />
-        <item itemvalue="Python.transformer" />
-        <item itemvalue="Python.writing_training" />
-        <item itemvalue="Python.parsing_conllu" />
-        <item itemvalue="Python.training" />
+        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.cleaner" />
+        <item itemvalue="Python.utils" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716581891710</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new data, new models">
+      <option name="closed" value="true" />
+      <created>1716622464961</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716622464961</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -403,6 +404,7 @@
     <MESSAGE value="4 Trained Models" />
     <MESSAGE value="Training Lost" />
     <MESSAGE value="Using the models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using the models" />
+    <MESSAGE value="new data, new models" />
+    <option name="LAST_COMMIT_MESSAGE" value="new data, new models" />
   </component>
 </project>
