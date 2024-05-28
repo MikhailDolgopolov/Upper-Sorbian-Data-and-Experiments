@@ -4,8 +4,13 @@ import re
 from pathlib import Path
 
 import numpy as np
+import pandas as pd
+pd.set_option('display.max_rows', 500)
+pd.set_option('display.max_columns', 500)
+pd.set_option('display.width', 1000)
 import spacy
 from spacy import displacy
+from spacy.attrs import POS, TAG
 from spacy.scorer import Scorer
 from tqdm import tqdm
 
@@ -32,12 +37,19 @@ def spacify_text(text: str, model: str = None) -> Doc:
         model = spacy.load(model)
     return model(text)
 
+def split_doc(doc: Doc)->list[Doc]:
+    nlp = spacy.blank("hsb", vocab=doc.vocab)
+    nlp.add_pipe("hsb_split", "senter", first=True)
 
-def spacify_file(file: Path, model: str = None) -> Doc:
+    ds=[]
+    for s in doc.sents:
+        ds.append(nlp(s.text))
+    return ds
+
+def spacify_text_file(file: str, model: str = None) -> Doc:
     return spacify_text(pathlib.Path(file).read_text(encoding="utf-8"), model)
 
 def write_doc_to_conllu(doc: Doc, path: str, encoding: str = "utf-8", par=1):
-
     if pathlib.Path(path).exists():
         file = open(path, "a", encoding=encoding)
     else:
@@ -112,3 +124,29 @@ def draw_deps(text: str | Doc, output_path: str, format:str="svg", model: str = 
             pix = doc.load_page(0).get_pixmap(alpha=False, dpi=190)
             pix.save(f"{paths[i]}.{format}")
             os.remove(paths[i]+".svg")
+
+def get_pd_table(doc:Doc, include_punctuation=False):
+
+    words = [token.text for token in doc if not token.is_punct or include_punctuation]
+    pos = [token.pos_ for token in doc if not token.is_punct or include_punctuation]
+    morph = [str(token.morph) for token in doc if not token.is_punct or include_punctuation]
+
+    df = pd.DataFrame.from_dict({"words":words, "pos":pos}, columns=words, orient="index")
+
+    return df
+
+
+def render_pd_table(df:pd.DataFrame, output_path:str, format:str="png"):
+    latex_str = df.to_latex()
+    # print(latex_str)
+    import matplotlib.pyplot as plt
+
+    plt.axis("off")
+    plt.table(cellText = df.to_numpy(dtype='str'))
+    # plt.axis("off")
+    # plt.text(0.5, 0.5, latex_str, size=50, ha="center", va="center")
+    png_path = f"{output_path}.{format}"
+
+    plt.savefig(png_path, format=format, bbox_inches="tight")
+    # plt.close(fig)
+

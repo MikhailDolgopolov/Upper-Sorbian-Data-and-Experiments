@@ -131,7 +131,7 @@ class ConlluParser:
 
         return output
 
-    def parse_conll_file_as_spacy(
+    def parse_conllu_file_as_spacy(
         self,
         input_file: Union[PathLike, Path, str],
         input_encoding: str = getpreferredencoding(),
@@ -148,9 +148,9 @@ class ConlluParser:
         :return: a spacy Doc containing all the tokens and sentences from the CoNLL file including the custom CoNLL extensions
         """
         text = Path(input_file).resolve().read_text(encoding=input_encoding)
-        return self.parse_conll_text_as_spacy(text, ner_tag_pattern=ner_tag_pattern, ner_map=ner_map, **kwargs)
+        return self.parse_conllu_text_as_spacy(text, ner_tag_pattern=ner_tag_pattern, ner_map=ner_map, **kwargs)
 
-    def parse_conll_text_as_spacy(
+    def parse_conllu_text_as_spacy(
         self,
         text: str,
         ner_tag_pattern: str = "^((?:name|NE)=)?([BILU])-([A-Z_]+)|O$",
@@ -270,14 +270,16 @@ class ConlluParser:
             clean_docs.append(clean_doc)
 
         clean, full = 0,0
-        if kwargs["combine"]:
+
+        comb, pair = kwargs.get("combine"), kwargs.get("pair")
+        if comb:
             clean = Doc.from_docs(clean_docs)
             full = Doc.from_docs(full_docs)
 
-        if kwargs["pair"]:
-            if kwargs["combine"]:
+        if pair:
+            if comb:
                 return clean, full
             return clean_docs, full_docs
-        if kwargs["combine"]:
+        if comb:
             return full
         return full_docs
